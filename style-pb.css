@@ -15,6 +15,7 @@
     .site-header{position:sticky;top:0;z-index:50;background:rgba(251,248,245,.95);backdrop-filter:blur(14px);border-bottom:1px solid rgba(24,26,38,.08)}
     .header-inner{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:32px}
     .brand{display:flex;align-items:center;gap:13px;min-width:max-content}
+    .brand-logo {width: 45px;height: 45px;object-fit: contain;display: block}
     .brand-mark{width:39px;height:39px;border:1px solid var(--pink);border-radius:50%;display:grid;place-items:center;color:var(--pink-dark);font-family:var(--serif);font-size:22px;font-style:italic;position:relative}
     .brand-mark:after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:var(--pink);right:2px;top:3px}
     .brand-name{font-family:var(--serif);font-size:25px;letter-spacing:-.7px;color:var(--navy);line-height:1.1}
