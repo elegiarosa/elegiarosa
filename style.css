@@ -50,21 +50,7 @@
     .text-link:hover span{transform:translateX(4px)}
 .hero-art {position: relative; width: 100%; height: 100%; min-height: 420px; overflow: hidden; border-radius: 4px; background: #F4E5E8;}
 .hero-image {display: block; width: 100%; height: 100%; min-height: 420px; object-fit: cover; object-position: center;}
-
-.hero-note {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
-  padding: 10px 16px;
-  background: rgba(24, 26, 38, 0.78);
-  color: #fff;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  border-radius: 2px;
-}
-    .hero-art{min-height:475px;position:relative;background:#eadbd5;overflow:hidden;border-radius:2px}
-    .hero-art:before{content:"";position:absolute;width:72%;height:85%;left:14%;top:9%;background:#f7eee9;border-radius:48% 48% 4px 4px}
-    .hero-art:after{content:"";position:absolute;width:52%;height:65%;left:24%;bottom:-10%;border-radius:48% 48% 0 0;background:linear-gradient(145deg,#d8b4ad,#b98583)}
+.hero-note {position: absolute;bottom: 24px;left: 24px;padding: 10px 16px;background: rgba(24, 26, 38, 0.78);color: #fff;font-size: 0.75rem;letter-spacing: 0.08em;border-radius: 2px;}
     .art-orbit{position:absolute;z-index:2;width:190px;height:190px;border:1px solid rgba(217,78,126,.55);border-radius:50%;top:16%;right:9%}
     .art-orbit:before,.art-orbit:after{content:"";position:absolute;border:1px solid rgba(217,78,126,.35);border-radius:50%;inset:15px}
     .art-orbit:after{inset:32px}
