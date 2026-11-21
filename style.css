@@ -51,9 +51,7 @@
 .hero-art {position: relative; width: 100%; height: 100%; min-height: 420px; overflow: hidden; border-radius: 4px; background: #F4E5E8;}
 .hero-image {display: block; width: 100%; height: 100%; min-height: 420px; object-fit: cover; object-position: center;}
 .hero-note {position: absolute;bottom: 24px;left: 24px;padding: 10px 16px;background: rgba(24, 26, 38, 0.78);color: #fff;font-size: 0.75rem;letter-spacing: 0.08em;border-radius: 2px;}
-    .art-orbit{position:absolute;z-index:2;width:190px;height:190px;border:1px solid rgba(217,78,126,.55);border-radius:50%;top:16%;right:9%}
-    .art-orbit:before,.art-orbit:after{content:"";position:absolute;border:1px solid rgba(217,78,126,.35);border-radius:50%;inset:15px}
-    .art-orbit:after{inset:32px}
+    
     .art-sun{position:absolute;z-index:3;width:94px;height:94px;border-radius:50%;background:#f5c4c7;top:19%;right:20%;box-shadow:0 0 0 18px rgba(245,196,199,.22)}
     .art-stem{position:absolute;z-index:4;bottom:14%;left:49%;width:2px;height:53%;background:#7f8b79;transform:rotate(16deg);transform-origin:bottom}
     .art-leaf{position:absolute;z-index:4;width:82px;height:37px;background:#a5ad9b;border-radius:100% 0 100% 0;transform:rotate(-26deg);bottom:35%;left:37%}
