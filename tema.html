@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf8f5">
+  <meta name="description" content="Explora este tema en Elegía Rosa: información, reflexiones y publicaciones para acompañarte.">
+  <title>Explorar tema — Elegía Rosa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-tm.css">
+ 
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Elegía Rosa, inicio">
+        <img src="logo.webp" alt="Elegía Rosa" class="brand-logo">
+        <span><span class="brand-name">elegía <span>rosa</span></span><span class="brand-tag">Espacio de acompañamiento</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="temas.html">Temas</a>
+        <a href="publicaciones.html">Publicaciones</a>
+        <a href="#recursos">Recursos</a>
+        <a href="https://www.instagram.com/elegia.rosa/" class="nav-cta">Siguenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container breadcrumb"><a href="index.html">Inicio</a><span>/</span><a href="temas.html">Temas</a><span>/</span><span id="breadcrumbTopic">Explorar tema</span></div>
+
+    <section class="container topic-hero">
+      <div>
+        <div class="eyebrow" id="topicEyebrow">Un tema para explorar</div>
+        <h1 id="topicTitle">Lo que estoy <em>sintiendo</em></h1>
+        <p class="topic-intro" id="topicIntro">Cada emoción merece un espacio. Explora este tema a tu propio ritmo.</p>
+        <p class="topic-subintro" id="topicSubintro">Aquí encontrarás reflexiones y recursos para comprender mejor tu experiencia, sin juicios ni expectativas.</p>
+      </div>
+      <div class="hero-art" id="heroArt" role="img" aria-label="Composición abstracta editorial en tonos suaves"><span class="hero-caption" id="heroCaption">Un momento para ti</span></div>
+    </section>
+
+    <section class="topic-content">
+      <div class="container content-grid">
+        <article class="article-copy">
+          <div class="eyebrow">Una primera aproximación</div>
+          <h2 id="developmentTitle">Darle espacio a lo que sentimos</h2>
+          <div id="topicDevelopment">
+            <p>Los procesos importantes de la vida pueden despertar emociones distintas, incluso al mismo tiempo. A veces es posible identificar con claridad lo que sentimos; otras veces, las sensaciones aparecen mezcladas o cuesta encontrar palabras para explicarlas.</p>
+            <p>No existe una respuesta emocional única ni una forma correcta de atravesar una experiencia. Lo que cada persona siente está relacionado con su historia, sus circunstancias, sus vínculos y el momento que está viviendo.</p>
+            <div class="reading-callout">Comprender lo que te pasa no significa tener que resolverlo todo hoy.</div>
+            <h3>Explorar sin exigencias</h3>
+            <p>Puedes acercarte a estos contenidos según lo que necesites en este momento. Algunas lecturas pueden ayudarte a poner nombre a una emoción; otras, a encontrar maneras de conversar sobre ella o reconocer cuándo sería útil buscar acompañamiento.</p>
+            <ul><li>Permítete leer a tu propio ritmo y hacer pausas cuando lo necesites.</li><li>Recuerda que tu experiencia no tiene que parecerse a la de otras personas.</li><li>Busca apoyo de personas de confianza o profesionales si sientes que lo necesitas.</li></ul>
+          </div>
+        </article>
+        <aside class="side-note">
+          <div class="eyebrow">Una nota para ti</div>
+          <h3>No tienes que recorrer este espacio de una sola vez.</h3>
+          <p>Elige la lectura que conecte con lo que estás viviendo hoy. Puedes volver a este tema cuando lo necesites.</p>
+          <a class="text-link" href="temas.html">Ver todos los temas ↗</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="related" id="publicaciones">
+      <div class="container">
+        <div class="related-top">
+          <div><div class="eyebrow">Sigue explorando</div><h2>Publicaciones sobre este tema</h2><p>Lecturas relacionadas con esta categoría.</p></div>
+          <div class="count" id="resultCount" aria-live="polite">Cargando publicaciones…</div>
+        </div>
+        <div class="toolbar">
+          <label class="search-wrap"><span style="position:absolute;left:-9999px">Buscar dentro de este tema</span><input class="search-input" id="searchInput" type="search" placeholder="Buscar en estas publicaciones…" autocomplete="off"></label>
+          <label class="sort-wrap">Ordenar por<select class="sort-select" id="sortSelect"><option value="recent">Más recientes</option><option value="oldest">Más antiguas</option><option value="az">Título: A–Z</option></select></label>
+        </div>
+        <div class="post-grid" id="postGrid">
+          <!-- Cada tarjeta debe tener data-tags con el/los tags que le correspondan. Una publicación puede tener más de uno, separados por comas. -->
+          <article class="post-card" data-tags="duelo,emociones" data-date="2026-11-18" data-title="El miedo a la recaída" data-search="miedo recaída tratamiento incertidumbre emociones ansiedad">
+            <a class="post-image" href="articulo.html" aria-label="Leer El miedo a la recaída"><span class="post-tag">Duelo y emociones</span></a>
+            <div class="post-body"><div class="post-meta"><span>18 nov 2026</span><i></i><span>6 min de lectura</span></div><h3><a href="articulo.html">El miedo a la recaída: cuando terminar el tratamiento no significa dejar de preocuparse</a></h3><p>La incertidumbre después del tratamiento y las emociones que pueden aparecer ante revisiones, estudios o síntomas nuevos.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <article class="post-card" data-tags="acompanamiento,autocuidado" data-date="2026-11-10" data-title="Pedir acompañamiento también es una forma de cuidarte" data-search="pedir ayuda acompañamiento apoyo emocional red cuidado">
+            <a class="post-image" href="articulo.html" aria-label="Leer Pedir acompañamiento"><span class="post-tag">Acompañamiento</span></a>
+            <div class="post-body"><div class="post-meta"><span>10 nov 2026</span><i></i><span>4 min de lectura</span></div><h3><a href="articulo.html">Pedir acompañamiento también es una forma de cuidarte</a></h3><p>Reconocer que necesitamos apoyo no nos hace menos capaces: puede abrir un espacio para compartir lo que estamos viviendo.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <article class="post-card" data-tags="cancer-de-mama,imagen-corporal" data-date="2026-11-02" data-title="Cuando el cuerpo cambia" data-search="cuerpo cambios imagen corporal cáncer mama cirugía identidad">
+            <a class="post-image" href="articulo.html" aria-label="Leer Cuando el cuerpo cambia"><span class="post-tag">Cáncer de mama</span></a>
+            <div class="post-body"><div class="post-meta"><span>02 nov 2026</span><i></i><span>5 min de lectura</span></div><h3><a href="articulo.html">Cuando el cuerpo cambia: habitar una nueva imagen de ti</a></h3><p>Una mirada sensible a los cambios corporales, la identidad y el proceso de construir una relación distinta con el propio cuerpo.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <article class="post-card" data-tags="familia,acompanamiento" data-date="2026-10-25" data-title="Acompañar sin tener todas las respuestas" data-search="familia seres queridos acompañar escuchar comunicación">
+            <a class="post-image" href="articulo.html" aria-label="Leer Acompañar sin tener todas las respuestas"><span class="post-tag">Familia y vínculos</span></a>
+            <div class="post-body"><div class="post-meta"><span>25 oct 2026</span><i></i><span>5 min de lectura</span></div><h3><a href="articulo.html">Acompañar sin tener todas las respuestas</a></h3><p>Estar presente, escuchar y respetar los tiempos de otra persona también son maneras valiosas de acompañar.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <article class="post-card" data-tags="autocuidado" data-date="2026-10-16" data-title="Pequeños espacios para ti" data-search="autocuidado descanso necesidades límites bienestar">
+            <a class="post-image" href="articulo.html" aria-label="Leer Pequeños espacios para ti"><span class="post-tag">Autocuidado</span></a>
+            <div class="post-body"><div class="post-meta"><span>16 oct 2026</span><i></i><span>4 min de lectura</span></div><h3><a href="articulo.html">Pequeños espacios para ti en medio de un proceso difícil</a></h3><p>El autocuidado no siempre implica grandes cambios. A veces comienza por identificar una necesidad y darte permiso para atenderla.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <article class="post-card" data-tags="duelo,emociones" data-date="2026-10-08" data-title="Hablemos del duelo que no siempre se ve" data-search="duelo pérdidas invisibles emociones diagnóstico cambios">
+            <a class="post-image" href="articulo.html" aria-label="Leer Hablemos del duelo"><span class="post-tag">Duelo y emociones</span></a>
+            <div class="post-body"><div class="post-meta"><span>08 oct 2026</span><i></i><span>7 min de lectura</span></div><h3><a href="articulo.html">Hablemos del duelo que no siempre se ve</a></h3><p>Hay pérdidas que no siempre reciben un nombre o un reconocimiento. Darles espacio puede ayudar a comprender lo que sentimos.</p><a class="text-link" href="articulo.html">Continuar leyendo ↗</a></div>
+          </article>
+          <div class="empty-state" id="emptyState"><h3>Aún no hay publicaciones para mostrar</h3><p>Prueba otra búsqueda o vuelve más adelante. Estamos construyendo este espacio poco a poco.</p><a class="text-link" href="publicaciones.html">Explorar todas las publicaciones ↗</a></div>
+        </div>
+        <nav class="pagination" id="pagination" aria-label="Paginación de publicaciones"></nav>
+      </div>
+    </section>
+
+    <section class="cta-band"><div class="container cta-inner"><div><h2>También puedes explorar otros temas.</h2><p>Acércate a las distintas experiencias y encuentra las lecturas que hoy tengan sentido para ti.</p></div><a class="button" href="temas.html">Volver a temas <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+   <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#inicio"><img src="alt-logo.webp" alt="Elegía Rosa" class="brand-logo"><span><span class="brand-name">elegía <span>rosa</span></span><span class="brand-tag" style="color:#aaa8b2">Espacio de acompañamiento</span></span></a>
+          <p>Porque toda pérdida merece ser escuchada</p>
+        </div>
+        <div class="footer-col"><h4>Explorar</h4><a href="#proyecto">El proyecto</a><a href="#temas">Temas</a><a href="publicaciones.html">Publicaciones</a><a href="#recursos">Recursos</a></div>
+        <div class="footer-col"><h4>Conectar</h4><a href="https://www.instagram.com/elegia.rosa/">Instagram</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Elegía Rosa. Todos los derechos reservados.</span><span><a href="#">Privacidad</a> &nbsp;·&nbsp; <a href="#">Accesibilidad</a></span></div>
+    </div>
+  </footer>
+  
+  <script>
+    // Cada tema se identifica mediante un slug. El mismo slug debe utilizarse en el enlace de "Explorar tema"
+    // y como tag en data-tags de las publicaciones.
+    const topicData = {
+      "duelo": {
+        title:"Hablemos del <em>duelo</em>", crumb:"Hablemos del duelo", eyebrow:"Pérdida, cambio y adaptación",
+        intro:"El duelo puede aparecer ante una pérdida, un cambio importante o el final de una etapa. No siempre se vive de la misma manera ni sigue un recorrido ordenado: cada historia tiene sus propios tiempos y significados.",
+        subintro:"Este espacio reúne reflexiones para reconocer las distintas formas del duelo, dar lugar a lo que sentimos y comprender que no hay una única manera de transitarlo.",
+        developmentTitle:"El duelo no tiene una sola forma",
+        paragraphs:[
+          "A veces relacionamos el duelo únicamente con la muerte, pero también podemos experimentar procesos de duelo ante cambios en la salud, el cuerpo, los proyectos, las rutinas o la idea que teníamos del futuro. Estas experiencias pueden traer tristeza, enojo, miedo, alivio, confusión o emociones que cambian de un día a otro.",
+          "No existe un calendario universal para el duelo. Comparar el propio proceso con el de otras personas o exigirse estar bien en determinado momento puede añadir presión a una experiencia que ya es compleja.",
+          "Dar espacio a lo que sentimos no significa resignarnos ni dejar de avanzar. Puede ser una forma de reconocer lo que ha cambiado, identificar qué necesitamos y encontrar maneras de vivir con esa nueva realidad."
+        ],
+        callout:"No hay un tiempo establecido para sentir, recordar, adaptarse o volver a empezar.",
+        subheading:"Un proceso propio, con posibilidad de acompañamiento",
+        final:"Puedes acercarte a estas lecturas cuando necesites poner en palabras una pérdida, comprender una emoción o encontrar recursos para conversar sobre lo que estás viviendo. Si el malestar se vuelve abrumador o interfiere de forma importante con tu vida cotidiana, buscar acompañamiento profesional puede ser de ayuda.",
+        art:"lilac",caption:"Dar lugar a cada experiencia"
+      },
+      "emociones": {
+        title:"Lo que estoy <em>sintiendo</em>",crumb:"Lo que estoy sintiendo",eyebrow:"Reconocer sin juzgar",
+        intro:"Durante una experiencia difícil pueden aparecer muchas emociones: miedo, tristeza, enojo, incertidumbre, culpa, alivio o incluso momentos de tranquilidad. A veces llegan juntas; otras, cambian sin que sepamos exactamente por qué.",
+        subintro:"Aquí encontrarás un espacio para reconocer lo que sientes, comprender algunas reacciones emocionales y recordar que no necesitas justificar tu experiencia.",
+        developmentTitle:"Darle espacio a lo que sentimos",
+        paragraphs:["Las emociones pueden ser respuestas a los cambios, las preguntas y las pérdidas que acompañan una situación compleja. No son señales de que estés afrontando algo bien o mal; forman parte de la manera en que cada persona vive lo que le sucede.","Puede ser difícil expresar lo que sentimos, especialmente cuando creemos que debemos mostrarnos fuertes o tranquilizar a quienes nos rodean. Sin embargo, reconocer una emoción puede ser un primer paso para identificar qué necesitamos.","No tienes que encontrar una explicación para cada sentimiento ni resolverlo de inmediato. A veces ayuda nombrarlo, escribirlo, compartirlo con alguien de confianza o simplemente permitirte hacer una pausa."],
+        callout:"Puedes sentir más de una cosa a la vez. Eso no hace que tu experiencia sea menos válida.",
+        subheading:"Escucharte también es una forma de cuidado",
+        final:"Explora las publicaciones según lo que resuene contigo. Si las emociones se vuelven persistentes, muy intensas o dificultan tus actividades cotidianas, considera buscar apoyo de un profesional de salud mental.",
+        art:"",caption:"Un momento para ti"
+      },
+      "cancer-de-mama": {
+        title:"Vivir con <em>cáncer de mama</em>",crumb:"Vivir con cáncer de mama",eyebrow:"Una experiencia que transforma",
+        intro:"Recibir un diagnóstico de cáncer de mama puede modificar muchos aspectos de la vida: la relación con el cuerpo, los planes, las rutinas, los vínculos y la percepción del futuro. Cada persona atraviesa esta experiencia de una manera particular.",
+        subintro:"Este tema aborda las vivencias que pueden acompañar el diagnóstico y el tratamiento, más allá de los aspectos médicos: emociones, identidad, cambios y necesidades de apoyo.",
+        developmentTitle:"Más allá del diagnóstico",
+        paragraphs:["El diagnóstico puede traer preguntas y emociones difíciles de ordenar. Durante el tratamiento, los cambios físicos, las citas médicas, los efectos secundarios y las modificaciones de la vida cotidiana pueden exigir ajustes constantes.","La experiencia no se limita al periodo de tratamiento. La imagen corporal, la intimidad, la vida familiar, el trabajo y la sensación de seguridad pueden verse atravesados de distintas maneras. No todas las personas viven los mismos cambios ni les atribuyen el mismo significado.","Hablar de estas dimensiones permite reconocer que la atención y el acompañamiento también deben considerar la experiencia emocional y social de cada persona."],
+        callout:"Tu historia es más amplia que un diagnóstico. Tus necesidades y tu voz también importan.",
+        subheading:"Encontrar información y acompañamiento",
+        final:"Las publicaciones de este espacio buscan ofrecer información y reflexión para acompañar distintas vivencias. No sustituyen la orientación del equipo médico; ante dudas sobre síntomas, tratamientos o seguimiento, consulta con tus profesionales de salud.",
+        art:"",caption:"Una experiencia, muchas dimensiones"
+      },
+      "autocuidado": {
+        title:"Cuidarme en el <em>proceso</em>",crumb:"Cuidarme en el proceso",eyebrow:"Atender tus propias necesidades",
+        intro:"En medio de las consultas, los cambios y las preocupaciones, puede ser difícil reconocer qué necesitas tú. El autocuidado no exige hacerlo todo ni mantener una actitud positiva: también puede comenzar con pequeños gestos y decisiones posibles.",
+        subintro:"Este espacio reúne ideas para escuchar tus necesidades, reconocer tus límites y encontrar formas realistas de cuidar tu bienestar.",
+        developmentTitle:"El autocuidado no tiene que ser perfecto",
+        paragraphs:["A veces pensamos en el autocuidado como una lista de actividades o hábitos que debemos cumplir. Sin embargo, durante una etapa exigente, cuidar de ti puede significar descansar, pedir ayuda, decir que no, expresar una preocupación o atender una necesidad concreta.","No todas las estrategias funcionan para todas las personas ni en todos los momentos. Lo importante es identificar qué resulta posible y significativo en tus circunstancias actuales, sin convertir el cuidado en otra obligación.","También es válido necesitar apoyo para organizar tareas, acudir a citas, tomar decisiones o sostener emocionalmente un proceso. Recibir ayuda puede formar parte del autocuidado."],
+        callout:"Cuidarte también puede ser bajar el ritmo y reconocer que hoy necesitas apoyo.",
+        subheading:"Pequeños pasos que pueden hacer espacio",
+        final:"Puedes explorar estas lecturas para pensar qué necesitas en este momento. Elige aquello que sea realista para ti y recuerda que pedir orientación profesional también es una forma de cuidado.",
+        art:"green",caption:"Pequeños espacios para ti"
+      },
+      "acompanamiento": {
+        title:"Acompañar a <em>alguien</em>",crumb:"Acompañar a alguien",eyebrow:"Estar presente también importa",
+        intro:"Cuando alguien cercano atraviesa una enfermedad, un diagnóstico o una pérdida, es común preguntarse qué decir o cómo ayudar. No siempre existen palabras capaces de resolver la situación, pero la escucha y la presencia pueden ser significativas.",
+        subintro:"Este espacio está dirigido a familiares, amistades y personas cercanas que desean acompañar con sensibilidad, respetando las necesidades y los tiempos de quien vive el proceso.",
+        developmentTitle:"Acompañar no significa tener todas las respuestas",
+        paragraphs:["A veces el deseo de ayudar lleva a buscar consejos, explicaciones o frases que intenten aliviar el dolor. Sin embargo, no siempre se necesita una solución. Preguntar qué necesita la persona, escuchar sin interrumpir y respetar si no desea hablar puede ser más útil.","Cada persona tiene preferencias distintas sobre cómo recibir apoyo. Algunas necesitan conversar; otras prefieren compañía tranquila o ayuda con tareas concretas. Es importante evitar asumir qué es lo mejor sin preguntarlo.","Quien acompaña también puede experimentar preocupación, cansancio o incertidumbre. Reconocer esas emociones y buscar apoyo propio ayuda a sostener el acompañamiento de una manera más cuidadosa."],
+        callout:"No necesitas encontrar las palabras perfectas para ofrecer una presencia sincera.",
+        subheading:"Escuchar, preguntar y respetar",
+        final:"Estas publicaciones ofrecen ideas para comunicarse y acompañar sin imponer expectativas. Recuerda que el apoyo profesional puede ser importante tanto para la persona que atraviesa la situación como para quienes la acompañan.",
+        art:"sand",caption:"La presencia también acompaña"
+      },
+      "despues-del-tratamiento": {
+        title:"Después del <em>tratamiento</em>",crumb:"Después del tratamiento",eyebrow:"Una nueva etapa, nuevas preguntas",
+        intro:"El final del tratamiento puede traer alivio y alegría, pero también incertidumbre. Algunas personas esperan recuperar rápidamente su vida anterior; otras descubren que necesitan tiempo para adaptarse a los cambios y a una etapa distinta.",
+        subintro:"Aquí exploramos las emociones y preguntas que pueden surgir después del tratamiento, incluidas las revisiones, el miedo a la recaída y la reconstrucción de rutinas.",
+        developmentTitle:"Cuando termina el tratamiento, el proceso puede continuar",
+        paragraphs:["El cierre de una etapa de tratamiento no siempre significa que desaparezcan las preocupaciones. Las revisiones médicas, los síntomas nuevos o los recordatorios de la enfermedad pueden despertar temor o ansiedad.","También puede haber cambios en la relación con el cuerpo, en los vínculos y en la manera de imaginar el futuro. Adaptarse a una nueva rutina puede tomar tiempo, y es posible experimentar emociones distintas a las que se esperaban.","Compartir estas inquietudes con el equipo de salud y con personas de confianza puede ayudar a encontrar orientación y apoyo. No es necesario minimizar lo que sientes porque el tratamiento haya terminado."],
+        callout:"Terminar el tratamiento puede ser un cierre y, al mismo tiempo, el comienzo de otra adaptación.",
+        subheading:"Avanzar con acompañamiento",
+        final:"Explora las publicaciones para encontrar reflexiones y recursos sobre esta etapa. Mantén el seguimiento indicado por tu equipo médico y comenta con profesionales cualquier síntoma o preocupación que te genere dudas.",
+        art:"green",caption:"Cada etapa tiene su propio ritmo"
+      }
+    };
+
+    const params=new URLSearchParams(window.location.search);
+    const requested=(params.get('tema')||'emociones').toLowerCase();
+    const topic=topicData[requested]||topicData['emociones'];
+    document.title=(topic.crumb||'Tema')+' — Elegía Rosa';
+    document.getElementById('breadcrumbTopic').textContent=topic.crumb;
+    document.getElementById('topicEyebrow').textContent=topic.eyebrow;
+    document.getElementById('topicTitle').innerHTML=topic.title;
+    document.getElementById('topicIntro').textContent=topic.intro;
+    document.getElementById('topicSubintro').textContent=topic.subintro;
+    document.getElementById('developmentTitle').textContent=topic.developmentTitle;
+    document.getElementById('heroCaption').textContent=topic.caption;
+    document.getElementById('heroArt').classList.add(topic.art);
+    const development=document.getElementById('topicDevelopment');
+    development.innerHTML='';
+    topic.paragraphs.forEach(text=>{const p=document.createElement('p');p.textContent=text;development.appendChild(p);});
+    const quote=document.createElement('div');quote.className='reading-callout';quote.textContent=topic.callout;development.appendChild(quote);
+    const sub=document.createElement('h3');sub.textContent=topic.subheading;development.appendChild(sub);
+    const finalP=document.createElement('p');finalP.textContent=topic.final;development.appendChild(finalP);
+
+    // Filtrado por coincidencia exacta del tag: una publicación puede pertenecer a varios temas.
+    const grid=document.getElementById('postGrid');
+    const cards=[...grid.querySelectorAll('.post-card')];
+    const empty=document.getElementById('emptyState');
+    const search=document.getElementById('searchInput');
+    const sort=document.getElementById('sortSelect');
+    const count=document.getElementById('resultCount');
+    const pagination=document.getElementById('pagination');
+    const perPage=6;
+    let page=1;
+    function getFiltered(){
+      const term=search.value.trim().toLocaleLowerCase('es');
+      const result=cards.filter(card=>{
+        const tags=(card.dataset.tags||'').split(',').map(t=>t.trim().toLowerCase());
+        const matchTag=tags.includes(requested);
+        const text=(card.dataset.search+' '+card.dataset.title+' '+card.textContent).toLocaleLowerCase('es');
+        return matchTag&&(!term||text.includes(term));
+      });
+      result.sort((a,b)=>{
+        if(sort.value==='az')return a.dataset.title.localeCompare(b.dataset.title,'es');
+        const diff=new Date(a.dataset.date)-new Date(b.dataset.date);
+        return sort.value==='oldest'?diff:-diff;
+      });
+      return result;
+    }
+    function render(){
+      const result=getFiltered(),pages=Math.max(1,Math.ceil(result.length/perPage));
+      page=Math.min(page,pages);
+      const visible=new Set(result.slice((page-1)*perPage,page*perPage));
+      cards.forEach(card=>card.style.display=visible.has(card)?'':'none');
+      empty.style.display=result.length?'none':'block';
+      count.textContent=result.length===1?'1 publicación':`${result.length} publicaciones`;
+      pagination.innerHTML='';
+      if(pages>1){
+        const add=(label,aria,disabled,callback,active=false)=>{const b=document.createElement('button');b.className='page-btn'+(active?' active':'');b.textContent=label;b.setAttribute('aria-label',aria);b.disabled=disabled;b.addEventListener('click',callback);pagination.appendChild(b);};
+        add('‹','Página anterior',page===1,()=>{page--;render();});
+        for(let n=1;n<=pages;n++)add(String(n),`Página ${n}`,false,()=>{page=n;render();},n===page);
+        add('›','Página siguiente',page===pages,()=>{page++;render();});
+      }
+    }
+    search.addEventListener('input',()=>{page=1;render();});
+    sort.addEventListener('change',()=>{page=1;render();});
+    document.getElementById('menuToggle').addEventListener('click',()=>{const nav=document.getElementById('mainNav'),btn=document.getElementById('menuToggle'),opened=nav.classList.toggle('is-open');btn.setAttribute('aria-expanded',String(opened));btn.setAttribute('aria-label',opened?'Cerrar menú':'Abrir menú');btn.textContent=opened?'×':'☰';});
+    document.getElementById('year').textContent=new Date().getFullYear();
+    render();
+  </script>
+</body>
+</html>
