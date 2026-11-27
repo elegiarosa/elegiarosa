@@ -95,6 +95,9 @@
   object-position: center;
   transition: transform 0.4s ease;
 }
+.article-card:hover .article-photo {
+  transform: scale(1.04);
+}
     .article-meta{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:10px;letter-spacing:.7px;text-transform:uppercase}
     .article-meta span:first-child{color:var(--pink-dark);font-weight:700}
     .article-body{padding:22px 23px 25px}
