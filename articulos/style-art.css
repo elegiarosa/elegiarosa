@@ -55,7 +55,6 @@
     .article-content blockquote{margin:39px 0;padding:26px 31px;background:var(--pink-soft);border-left:2px solid var(--pink);font-family:var(--serif);font-size:24px;line-height:1.55;color:var(--navy)}
     .article-content blockquote cite{display:block;margin-top:13px;font-family:var(--sans);font-size:9px;font-style:normal;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--pink-dark)}
     .content-image{margin:36px 0;background:#e4e8df;min-height:270px;position:relative;overflow:hidden}
-    .content-image:before{content:"";position:absolute;width:45%;height:100%;left:28%;top:18%;border-radius:50% 50% 0 0;background:linear-gradient(135deg,#b9c4b2,#829282)}
     .content-image figcaption{position:absolute;bottom:12px;left:15px;font-size:10px;color:#5d665b}
     .article-note{margin:35px 0;padding:22px 25px;background:#f2ece6;border:1px solid var(--line)}
     .article-note strong{display:block;margin-bottom:6px;color:var(--navy);font-family:var(--serif);font-size:20px;font-weight:400}
