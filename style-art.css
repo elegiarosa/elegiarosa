@@ -83,7 +83,6 @@
     .related-thumb{height:165px;background:#e6d6d2;position:relative;overflow:hidden}
     .related-card:nth-child(2) .related-thumb{background:#dfe5dc}
     .related-card:nth-child(3) .related-thumb{background:#e9dce0}
-    .related-thumb:before{content:"";position:absolute;width:55%;height:110%;left:23%;top:20%;border-radius:50% 50% 0 0;background:linear-gradient(145deg,#f1c9c8,#c39391)}
     .related-card:nth-child(2) .related-thumb:before{background:linear-gradient(145deg,#b7c4b1,#7f9280)}
     .related-card:nth-child(3) .related-thumb:before{background:linear-gradient(145deg,#dbb4c0,#a77f8d)}
     .related-info{padding:20px}
